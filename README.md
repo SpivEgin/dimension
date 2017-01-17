@@ -1,31 +1,32 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Dimension
 
+Dimension is a single page and responsive site template. It is a port of [HTML5 UP's Dimension theme](https://html5up.net/uploads/demos/dimension/).
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+![Dimension Theme screenshot](https://raw.githubusercontent.com/sethmacleod/dimension/master/images/screenshot.png)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Installation
 
-(* = not included)
+Run the following commands inside your Hugo site folder:
 
-AJ
-aj@lkn.io | @ajlkn
+    $ cd themes
+    $ git clone https://github.com/sethmacleod/dimension.git
 
+## Getting Started
 
-Credits:
+After installation, you will need to configure the config.toml file, change pictures, and write your pages.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+### The config file
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+Copy the config.toml from the exampleSite folder into your Hugo site's root folder. Change the fields as needed. Add or delete social media by following the examples in the file. You may need to look up the [font-awesome](http://fontawesome.io/) icon names. The icon field should be filled out without the "fa" prefix. The icon field for Twitter should be 'twitter' instead of 'fa-twitter'.
 
-	Other:
-		jQuery (jquery.com)
-		Misc. Sass functions (@HugoGiraudel)
-		Skel (skel.io)
+### Changing pictures
+
+Create an `img` folder in the static folder of your site -- **not** the theme's static folder. Add pictures to `/static/img` as needed. The background image should be named `bg.jpg`. The default names for the other images are `pic01.jpg`, `pic02.jpg`, and `pic03.jpg`, but you may use your own naming scheme when you edit `index.html`.
+
+### Writing your pages
+
+Since this theme uses modals instead of separate content pages, it is best to simply edit the `index.html` file to edit your site. Follow the example pages in the `index.html` file and adjust as needed.
+
+## License
+
+This theme is released under the CC BY 3.0 license. For more information, read the [License](https://github.com/sethmacleod/dimension/blob/master/LICENSE.md).

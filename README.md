@@ -25,7 +25,7 @@ Create an `img` folder in the static folder of your site -- **not** the theme's 
 
 ### Writing your pages
 
-Since this theme uses modals instead of separate content pages, it is best to simply edit the `index.html` file to edit your site. Follow the example pages in the `index.html` file and adjust as needed.
+Since this theme uses modals instead of separate content pages, it is best to simply edit the `index.html` file to edit your site. Copy the `index.html` file to your `layouts` folder before editing. Follow the example pages in the `index.html` file and adjust as needed.
 
 ## License
 

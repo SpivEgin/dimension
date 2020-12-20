@@ -2,7 +2,7 @@
 
 Dimension is a single page and responsive site template. It is a port of [HTML5 UP's Dimension theme](https://html5up.net/uploads/demos/dimension/).
 
-![Dimension Theme screenshot](https://raw.githubusercontent.com/sethmacleod/dimension/master/images/screenshot.png)
+<img alt="Dimension Theme screenshot" src="https://github.com/SpivEgin/dimension/blob/master/images/tn.png" />
 
 ## Installation
 
